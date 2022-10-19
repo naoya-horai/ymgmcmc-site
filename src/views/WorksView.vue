@@ -67,15 +67,12 @@ export default {
 </script>
 
 <template>
-  <canvas ref="canvasRef"></canvas>
+  <canvas ref="canvasRef" class="fullscreen"></canvas>
 </template>
 
 <style scoped>
 .fullscreen {
   position: absolute;
-  top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
 }
 </style>
